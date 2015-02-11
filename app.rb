@@ -15,7 +15,7 @@ post '/submit' do
 		"Sorry, there was an error!"
 	end
 end
-
+ 
 get '/models' do
 	@models = Model.all
 	erb :models
